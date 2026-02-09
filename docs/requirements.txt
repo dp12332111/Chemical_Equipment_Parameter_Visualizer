@@ -1,0 +1,7 @@
+django
+djangorestframework
+pandas
+sqlite3
+pyqt5
+requests
+matplotlib

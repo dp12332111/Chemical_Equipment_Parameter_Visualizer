@@ -1,0 +1,111 @@
+/* Global styles to match desktop */
+body {
+  background-color: #f5f6fa;
+  color: #282828;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Navigation tabs */
+.tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.tabs li {
+  margin-right: 10px; /* better spacing */
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #282828;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px 6px 0 0;
+  background-color: white;
+}
+
+.tabs a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Buttons */
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px; /* For spacing multiple buttons */
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  border: 1px solid #eee;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Headings and labels */
+h2, h3 {
+  color: #282828;
+  font-size: 1.2em; /* Match desktop's implicit size */
+}
+
+/* Forms (for Upload) */
+form {
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  margin-right: 10px;
+}
+
+/* Charts containers */
+div[style*="width: 400px"] {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+/* Error/Success messages */
+p[style*="color: red"], p[style*="color: green"] {
+  font-weight: bold;
+}
