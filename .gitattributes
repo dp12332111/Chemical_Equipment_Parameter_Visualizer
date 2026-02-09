@@ -1,0 +1,4 @@
+*.js text eol=lf    # Force LF for JS files
+*.css text eol=lf   # Same for CSS
+*.csv text eol=lf   # For CSV files
+* text=auto         # Auto-detect for others
